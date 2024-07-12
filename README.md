@@ -1,8 +1,5 @@
 # FreeCodeCamp-Responsive-Web-Design
- Curso de HTML e CSS do freeCodeCamp
-
-#
-Projetos:
+<h3>Projetos:</h3>
 
  <ul>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/1-Aplicativo_de_fotos_de_gatos/" target="_blank">App fotos de gatos</a></li>
@@ -14,4 +11,5 @@ Projetos:
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/7-flexbox_galeria_de_fotos/" target="_blank">Galeria de fotos</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/8-rotulo_nutricional/" target="_blank">Rótulo nutricional</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/9-form_acessibilidade/">Form (acessibilidade)</a></li>
+     <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/11-pintura_de_gato/">Pintura de gato</a></li>
  </ul>
