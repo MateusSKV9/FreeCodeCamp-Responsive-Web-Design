@@ -2,7 +2,6 @@
   // editor
   "editor.wordWrap": "on",
   "editor.lineHeight": 23,
-  "editor.tabSize": 1,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.minimap.enabled": false,
