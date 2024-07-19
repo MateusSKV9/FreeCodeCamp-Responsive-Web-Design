@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentação Técnica</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <main id="main-doc">
+        <nav id="navbar">
+            <table>
+                <tr><th>
+                    <header>Documentação JS</header>
+                </th></tr>
+                <tr><td><a href="#Introdução" class="nav-link">Introdução</a></tr></th>
+                <tr><td><a href="#Biblioteca_Padrão_e_Extensões" class="nav-link">Biblioteca Padrão e Extensões</a></td></tr>
+                <tr>
+                    <td><a href="#Conhecimentos_Prévios_Necessários" class="nav-link">Conhecimentos Prévios Necessários</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#Diferenças_entre_JavaScript_e_Java" class="nav-link">Diferenças entre JavaScript e Java</a></td>
+                </tr>
+                <tr><td><a href="#Hello_World_em_JavaScript" class="nav-link">Hello World em JavaScript</a></td></tr>
+                <tr><td><a href="#Variáveis_em_JavaScript" class="nav-link">Variáveis em JavaScript</a></td></tr>
+                <tr><td><a href="#Escopo_de_Variáveis" class="nav-link">Escopo de Variáveis</a></td></tr>
+                <tr><td><a href="#Constantes" class="nav-link">Constantes</a></td></tr>
+                <tr><td><a href="#Tipos_de_Dados" class="nav-link">Tipos de Dados</a></td></tr>
+                <tr><td><a href="#Declaração_if_else" class="nav-link">Declaração if_else</a></td></tr>
+                <tr><td><a href="#Declaração_while" class="nav-link">Declaração while</a></td></tr>
+                <tr><td><a href="#Declarações_de_Funções" class="nav-link">Declarações de Funções</a></td></tr>
+                <tr><td><a href="#Referências" class="nav-link">Referências</a></td></tr>
+            </table>
+        </nav>
+
+        <div id="section-container">
+            <section id="Introdução" class="main-section">
+                <header>Introdução</header>
+                <p>
+                JavaScript é uma linguagem de script orientada a objetos e
+                multiplataforma. Reconhecida por sua leveza, é utilizada tanto no lado
+                cliente quanto servidor para controle programático do ambiente.
+                </p>
+            </section>
+            <section id="Biblioteca_Padrão_e_Extensões" class="main-section">
+                <header>Biblioteca Padrão e Extensões</header>
+                <p>
+                JavaScript oferece uma biblioteca padrão com objetos como Array, Date
+                e Math. Além disso, pode ser estendida com objetos adicionais para
+                manipulação do DOM no lado cliente e interações servidor-cliente.
+                </p>
+            </section>
+            <section id="Conhecimentos_Prévios_Necessários" class="main-section">
+                <header>Conhecimentos Prévios Necessários</header>
+                <p>Espera-se que o usuário tenha:</p>
+                <ul>
+                <li>Compreensão geral da Internet e WWW.</li>
+                <li>Conhecimento sólido de HTML.</li>
+                <li>Experiência básica em programação.</li>
+                </ul>
+            </section>
+            <section id="Diferenças_entre_JavaScript_e_Java" class="main-section">
+                <header>Diferenças entre JavaScript e Java</header>
+                <p>
+                Apesar de algumas semelhanças superficiais, JavaScript difere
+                fundamentalmente de Java. Enquanto JavaScript é dinâmico e não requer
+                tipagem estática, Java é estritamente tipado e segue um modelo de
+                classes.
+                </p>
+            </section>
+            <section id="Hello_World_em_JavaScript" class="main-section">
+                <header>Hello World em JavaScript</header>
+                <p>
+                Para começar, utilize o Scratchpad para escrever seu primeiro código
+                JavaScript:
+                </p>
+                <code>
+                        function greetMe(yourName) {
+                            alert("Hello " + yourName);
+                        }
+                        greetMe("World");
+                </code>
+            </section>
+            <section id="Variáveis_em_JavaScript" class="main-section">
+                <header>Variáveis em JavaScript</header>
+                <p>
+                Variáveis em JavaScript são declaradas com var para escopo global ou
+                local, e com let para escopo de bloco.
+                </p>
+                <code>
+                    var linguagem = "Protuguês";
+                </code>
+            </section>
+            <section id="Escopo_de_Variáveis" class="main-section">
+                <header>Escopo de Variáveis</header>
+                <p>
+                    Antes do ECMAScript 2015, o escopo de variáveis em JavaScript era
+                    limitado a funções ou ao escopo global. Com let, o escopo de bloco é
+                    introduzido.
+                </p>
+                <code>
+                    let nome = "Mateus";<br>
+                </code>
+            </section>
+            <section id="Constantes" class="main-section">
+                <header>Constantes</header>
+                <p>
+                    Use const para criar constantes somente leitura. Elas seguem as regras
+                    de escopo de variáveis de bloco.
+                </p>
+                <code>
+                    const PI = 3.14;
+                </code>
+            </section>
+            <section id="Tipos_de_Dados" class="main-section">
+                <header>Tipos de Dados</header>
+                <p>
+                    JavaScript suporta seis tipos primitivos:
+                </p>
+                <ul>
+                    <li>Boolean</li>
+                    <li>null</li>
+                    <li>undefined</li>
+                    <li>Number</li>
+                    <li>String</li>
+                    <li>Symbol</li>
+                    <li>Objetos</li>
+                </ul>
+            </section>
+            <section id="Declaração_if_else" class="main-section">
+                <header>Declaração if_else</header>
+                <p>
+                Use if para executar um bloco de código se uma condição for
+                verdadeira, e else para código alternativo se não for.
+                </p>
+                <code>
+                    if(x===1) {
+                        console.log("x == 1");
+                    } else {
+                        console.log("x =! 1");
+                    }
+                </code>
+            </section>
+            <section id="Declaração_while" class="main-section">
+                <header >Declaração while</header>
+                <p>
+                while executa um bloco de código enquanto uma condição específica for
+                verdadeira.
+                </p>
+            </section>
+            <section id="Declarações_de_Funções" class="main-section">
+                <header >Declarações de Funções</header>
+                <p>
+                Defina funções com function, seguido pelo nome da função e argumentos.
+                As funções podem retornar valores usando return.
+                </p>
+            </section>
+            <section id="Referências" class="main-section">
+                <header >Referências</header>
+                <p>
+                Todas as informações foram baseadas em documentação da MDN, adaptadas
+                para este guia.
+                </p>
+            </section>
+        </div>
+    </main>
+  </body>
+</html>
