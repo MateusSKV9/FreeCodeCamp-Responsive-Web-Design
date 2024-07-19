@@ -15,6 +15,8 @@
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/11-folha_de_saldo/">Folha de saldo</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/12-pintura_de_gato/">Pintura de gato</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/13-piano/">Piano</a></li>
+     <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/14-documentacao_tecnica/">Documentação Técnica</a></li>
+     <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/13-piano/">Piano</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/15-city_skyline/">City Skyline</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/16-revista/">Revista</a></li>
      <li><a href="https://mateusskv9.github.io/FreeCodeCamp-Responsive-Web-Design/18-roda_gigante/">Roda Gigante</a></li>
